@@ -1,6 +1,5 @@
 <section>
     <fieldset>
-        <!-- {{ authorForm.valid | json }} -->
         <div *ngIf="errors.length" class="alert alert-danger" role="alert">
             <div *ngFor="let error of errors">{{ error.error }}</div>
             <button type="button" class="close" data-dismiss="alert" aria-label="Dismiss">Dismiss</button>
