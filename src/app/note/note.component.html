@@ -1,0 +1,5 @@
+<hr class="my-4">
+<div class="notes" *ngFor="let note of notes">
+    <p class="lead">{{ note.note }}</p>
+    <p class="lead" id="date">Noted on: {{ note.createdAt | date: 'medium' }}</p>
+</div>

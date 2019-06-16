@@ -1,0 +1,13 @@
+.notes {
+	background-color: white;
+	outline: 1px solid black;
+	padding: 10px;
+}
+p.lead {
+	display: inline;
+	margin: 5px;
+	padding: 5px;
+}
+p#date.lead {
+	font-size: 12px;
+}

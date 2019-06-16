@@ -1,0 +1,16 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.container {
+	width: 960px;
+	background-color: #4230ff12;
+	padding: 15px;	
+}
+h1 {
+	text-align: center;
+}
+p.lead {
+	margin-left: 15px;
+}
+a.btn.btn-outline-primary {
+	margin-left: 15px;
+}
